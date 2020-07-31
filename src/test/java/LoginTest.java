@@ -12,4 +12,9 @@ public class LoginTest extends BaseTest{
 		String actualTitle=abstractPage.getInstance(LoginPage.class).pageTitle();
 		Assert.assertEquals(actualTitle, "OrangeHRM");
 	}
+
+public void doPageTitleTest() throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
+		String actualTitle=abstractPage.getInstance(LoginPage.class).pageTitle();
+		Assert.assertEquals(actualTitle, "OrangeHRM");
+	}
 }
